@@ -11,13 +11,24 @@
         font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
         background-color: var(--bg-color);
         color: var(--tg-theme-text-color);
-        margin: 48px 24px;
+        margin: 0;
         padding: 0;
         color-scheme: var(--tg-color-scheme);
+        overflow: hidden;
       }
       a {
         color: var(--tg-theme-link-color);
       }
+
+      main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 24px;
+        z-index: 1;
+      }
+
       #viewport {
         position: fixed;
         left: 0;
